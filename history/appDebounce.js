@@ -16,7 +16,7 @@ function onChange(e) {
 // onChange2 = debounce(onChange, 2000)
 // onChange = throttle(onChange, 2000)
 
-// document.getElementById("search").addEventListener("keyup", onChange2)
+document.getElementById("search").addEventListener("keyup", onChange2)
 
 function throttle(func, ms) {
   let isThrottled = false,
